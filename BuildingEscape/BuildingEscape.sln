@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{3C27CD39-AF5B-417A-86F4-9251DDBA9213}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{686DA7FC-A96E-46C8-B91B-3E04F7F006C0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{9400C725-F110-400A-B40A-9500696AF467}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BuildingEscape", "Intermediate\ProjectFiles\BuildingEscape.vcxproj", "{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DebugGame Editor|HTML5 = DebugGame Editor|HTML5
+		DebugGame Editor|Win32 = DebugGame Editor|Win32
+		DebugGame Editor|Win64 = DebugGame Editor|Win64
+		DebugGame|HTML5 = DebugGame|HTML5
+		DebugGame|Win32 = DebugGame|Win32
+		DebugGame|Win64 = DebugGame|Win64
+		Development Editor|HTML5 = Development Editor|HTML5
+		Development Editor|Win32 = Development Editor|Win32
+		Development Editor|Win64 = Development Editor|Win64
+		Development|HTML5 = Development|HTML5
+		Development|Win32 = Development|Win32
+		Development|Win64 = Development|Win64
+		Shipping|HTML5 = Shipping|HTML5
+		Shipping|Win32 = Shipping|Win32
+		Shipping|Win64 = Shipping|Win64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.DebugGame Editor|HTML5.ActiveCfg = HTML5_DebugGame_Editor|Win32
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.DebugGame Editor|Win32.ActiveCfg = DebugGame_Editor|Win32
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.DebugGame Editor|Win64.ActiveCfg = DebugGame_Editor|x64
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.DebugGame Editor|Win64.Build.0 = DebugGame_Editor|x64
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.DebugGame|HTML5.ActiveCfg = HTML5_DebugGame_Game|Win32
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.DebugGame|HTML5.Build.0 = HTML5_DebugGame_Game|Win32
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.DebugGame|Win32.ActiveCfg = DebugGame_Game|Win32
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.DebugGame|Win32.Build.0 = DebugGame_Game|Win32
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.DebugGame|Win64.ActiveCfg = DebugGame_Game|x64
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.DebugGame|Win64.Build.0 = DebugGame_Game|x64
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.Development Editor|HTML5.ActiveCfg = HTML5_Development_Editor|Win32
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.Development Editor|Win32.ActiveCfg = Development_Editor|Win32
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.Development Editor|Win64.ActiveCfg = Development_Editor|x64
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.Development Editor|Win64.Build.0 = Development_Editor|x64
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.Development|HTML5.ActiveCfg = HTML5_Development_Game|Win32
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.Development|HTML5.Build.0 = HTML5_Development_Game|Win32
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.Development|Win32.ActiveCfg = Development_Game|Win32
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.Development|Win32.Build.0 = Development_Game|Win32
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.Development|Win64.ActiveCfg = Development_Game|x64
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.Development|Win64.Build.0 = Development_Game|x64
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.Shipping|HTML5.ActiveCfg = HTML5_Shipping_Game|Win32
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.Shipping|HTML5.Build.0 = HTML5_Shipping_Game|Win32
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.Shipping|Win32.ActiveCfg = Shipping_Game|Win32
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.Shipping|Win32.Build.0 = Shipping_Game|Win32
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.Shipping|Win64.ActiveCfg = Shipping_Game|x64
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125}.Shipping|Win64.Build.0 = Shipping_Game|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9400C725-F110-400A-B40A-9500696AF467} = {3C27CD39-AF5B-417A-86F4-9251DDBA9213}
+		{A67DB693-EAA0-450B-B5C2-CBE7F1C35125} = {686DA7FC-A96E-46C8-B91B-3E04F7F006C0}
+	EndGlobalSection
+EndGlobal
